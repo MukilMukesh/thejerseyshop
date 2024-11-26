@@ -1,0 +1,15 @@
+.search-button {
+    background-color: #718ba6;
+}
+.search-button:before {
+    border: 0;
+  }
+  .search-button:hover {
+    background-color: #718ba6; /* Subtle color change on hover */
+    transform: translateY(0); /* Optional subtle hover effect */
+  }
+  
+  .search-button:active {
+    transform: translateY(0); /* Prevents the button from "sticking" when clicked */
+  }
+  
